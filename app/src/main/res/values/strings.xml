@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ToDo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title1">wyrzucić śmieci</string>
+    <string name="title2">wyprowadzić psai</string>
+    <string name="title3">nauczyć się na sprawdzian</string>
+    <string name="title4">trening</string>
+
+    <string name="priority1">1</string>
+    <string name="priority2">2</string>
+    <string name="priority3">3</string>
+</resources>

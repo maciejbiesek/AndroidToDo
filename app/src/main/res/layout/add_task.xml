@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/task_add_title"
+            android:hint="Tytuł"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/radioList"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp"
+            android:layout_weight="0.15"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:text="Priorytet"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio1"
+                android:text="normalny"
+                android:checked="true"
+                android:layout_below="@+id/ratingBar"
+                android:layout_marginTop="59dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio2"
+                android:text="ważne" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio3"
+                android:text="bardzo ważne"/>
+        </RadioGroup>
+    </LinearLayout>
+
+</ScrollView>
